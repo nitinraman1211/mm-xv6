@@ -27,14 +27,14 @@ All process works on virtual address. Machine’s RAM is physical address. Page 
 
 Xv6 does this in 2 steps. 
 
-![Untitled](xv6%20memory%20management%20walkthrough%2052f10c25c9dd4de39e601e386e6a1788/Untitled.png)
+![Untitled](https://github.com/nitinraman1211/mm-xv6/blob/main/xv6%20memory%20management%20walkthrough%2052f10c25c9dd4de39e601e386e6a1788/Untitled%201.png)
 
 Some things to note for xv6 :
 - 32 bit virtual address (so, virtual address space 4GB)
 - page size of 4KB
 - The CPU register `CR3` contains **a pointer to the outer page directory** of the **current running process**.
 
-![Untitled](xv6%20memory%20management%20walkthrough%2052f10c25c9dd4de39e601e386e6a1788/Untitled%201.png)
+![Untitled]    (xv6%20memory%20management%20walkthrough%2052f10c25c9dd4de39e601e386e6a1788/Untitled%201.png)
 
 ### **Caution**
 
